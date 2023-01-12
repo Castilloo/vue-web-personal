@@ -1,0 +1,20 @@
+$color1: #212121;
+$color2: #ff9f2a;
+$color3: #18dcff;
+$color4: #c56cf0;
+$color5: #3ae374;
+$color-white: white;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu+Mono&display=swap');
+
+$ff-secondary: 'Ubuntu Mono', monospace;
+$ff-primary: 'Source Sans Pro', sans-serif;
+
+:export {
+    colorone: $color1;
+    colortwo: $color2;
+    colorthree: $color3;
+    colorfour: $color4;
+    colorfive: $color5;
+    colorwhite: $color-white;
+}
